@@ -1,6 +1,6 @@
 {
     "name": "oh-my-type",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Oh my type! Tiny and robust type checker.",
     "main": "build/index.js",
     "scripts": {
@@ -12,10 +12,9 @@
         "version:patch": "npm version patch --git-tag-version=false",
         "git:add": "git add .",
         "git:commit": "npm run git:add && git commit",
-        "git:push": "git push origin/master",
-        "release:major": "npm run version:major && npm run git:commit && npm run git:push",
-        "release:minor": "npm run version:minor && npm run git:commit && npm run git:push",
-        "release:patch": "npm run version:patch && npm run git:commit && npm run git:push"
+        "release:major": "npm run version:major && npm run git:commit",
+        "release:minor": "npm run version:minor && npm run git:commit",
+        "release:patch": "npm run version:patch && npm run git:commit"
     },
     "repository": {
         "type": "git",

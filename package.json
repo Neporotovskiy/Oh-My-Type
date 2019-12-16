@@ -1,6 +1,6 @@
 {
     "name": "oh-my-type",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Oh my type! Tiny and robust type checker.",
     "main": "build/index.js",
     "scripts": {
